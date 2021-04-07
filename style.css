@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkgray: #111;
+  --lightgray: #eee;
+  --wash-color: var(--lightgray);
+  --text-color: var(--darkgray);
+  --site-color: royalblue;
+  --sp: 1.5rem;
+}
