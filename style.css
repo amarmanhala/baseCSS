@@ -6,10 +6,22 @@
 }
 
 :root {
-  --darkgray: #111;
-  --lightgray: #eee;
-  --wash-color: var(--lightgray);
-  --text-color: var(--darkgray);
-  --site-color: royalblue;
-  --sp: 1.5rem;
+  --black: #030303;
+  --white: #EFEFEF;
+  --grey: #636366;
+  --backgound-color: var(--black);
+  --text-color: var(--white);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --backgound-color: var(--white);
+  --text-color: var(--black);
+  }
+}
+
+html {
+  font: 100%/1.5 "IBM Plex Serif", serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
